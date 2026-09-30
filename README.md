@@ -43,7 +43,7 @@ AATC answers it with **27 controls that are verified by test, not by questionnai
 
 Version 0.1, public draft for comment. The mappings to ISO/IEC 42001, NIST AI RMF, OWASP and SOC 2 are indicative and have not been reviewed by those bodies. The open questions for v0.2 are listed in section 10 of the draft. Comments, corrections and disagreements are welcome as issues.
 
-A reference implementation of most controls is [UBAG](https://github.com/mohameduk/ubag-core), which is where the negative results quoted in the draft were measured. AATC is written to be implementation-neutral: any gateway, proxy, sandbox supervisor or tool server can be assessed against it.
+A reference implementation of most controls is [UBAG](https://github.com/mohameduk/ubag), which is where the negative results quoted in the draft were measured. AATC is written to be implementation-neutral: any gateway, proxy, sandbox supervisor or tool server can be assessed against it.
 
 AATC is not an attestation standard, is not affiliated with or endorsed by AICPA, ISO, NIST, OWASP or CSA, and is not legal, audit or compliance advice.
 
