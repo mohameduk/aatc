@@ -6,7 +6,7 @@ ISO/IEC 42001 governs the organization. NIST AI RMF governs the risk process. OW
 
 > When this agent is manipulated, what is it still able to do, and how do I prove it?
 
-AATC answers it with **26 controls that are verified by test, not by questionnaire**. Every control names the adversarial test that demonstrates it and the evidence that test leaves behind.
+AATC answers it with **27 controls that are verified by test, not by questionnaire**. Every control names the adversarial test that demonstrates it and the evidence that test leaves behind.
 
 **Read the draft: [AATC-v0.1.md](AATC-v0.1.md)**
 
@@ -18,7 +18,7 @@ AATC answers it with **26 controls that are verified by test, not by questionnai
 | AA Action authorization | 6 | Is every side effect decided before it runs, and bound to what was granted? |
 | DE Data and egress | 4 | Can data reach an undeclared destination, an internal address, or a model whose terms forbid it? |
 | MS Money and spend | 4 | Do payees come from history rather than the conversation, and are value, spend and loop limits enforced before the call? |
-| PV Provenance and intent | 3 | Did anyone actually ask for the values this action carries? |
+| PV Provenance and intent | 4 | Did anyone actually ask for the values this action carries, and can a model judge only tighten the verdict? |
 | EV Evidence and audit | 5 | Can every decision be reproduced and proven afterwards? |
 
 ## Three assurance levels
@@ -37,6 +37,7 @@ AATC answers it with **26 controls that are verified by test, not by questionnai
 4. Permission to act is not permission to act on anything.
 5. A control that has never been observed refusing something has not been shown to work.
 6. Each control states what it does not cover, and negative results are published.
+7. A model may tighten a decision, never loosen it. Where a model helps judge an action, it can hold or refuse, never allow.
 
 ## Status
 
